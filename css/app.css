@@ -1,0 +1,159 @@
+@import url(https://fonts.googleapis.com/css?family=Fontdiner+Swanky);
+@import url(https://fonts.googleapis.com/css?family=Oxygen);
+/*font-family: 'Fontdiner Swanky', cursive;*/
+
+/* ---------------------------< start GENERAL style >-------------------------- */
+html {
+    min-width: 1280px;
+}
+
+body {
+    background-color: rgb(250, 250, 250);
+    color: #222;
+}
+main {
+    display: block;
+    transform: translateX(5%);
+    width: 90%;
+}
+
+h2 {
+    font-family: Arial, sans-serif;
+    font-size: 160%;
+    font-weight: 200;
+    text-transform: uppercase;
+}
+
+p {
+    font-family: 'Oxygen', 'Helvetica', 'Times New Roman', serif ;
+    font-size: 110%;
+}
+p.ModelIndex {
+    font-family: Arial, sans-serif;
+    font-size: 100%;
+    font-weight: 200;
+    text-transform: uppercase;
+}
+p.PrinterPrice {
+    font-family: Arial, sans-serif;
+    font-size: 160%;
+    font-weight: 600;
+}
+p.PrinterPrice small {
+    font-family: 'Oxygen', 'Helvetica', 'Times New Roman', serif ;
+    font-size: 50%;
+    font-weight: normal;
+}
+
+/* ---------------------------< end GENERAL style >-------------------------- */
+
+
+/*================== < start TOP BOXES SECTION > ====================*/
+section.TopBoxes {
+    text-align: center;
+    padding: 0;
+    margin: 1%;
+    margin-bottom: 5%;
+}
+
+section.TopBoxes div {
+    display: inline-block;
+    width: 57%;
+    margin: 0 1% 0 0;
+    padding: 0;
+    vertical-align: top;
+    text-align: left;
+}
+section.TopBoxes img {
+    display: inline-block;
+    width: 40%;
+    margin: 0;
+    padding: 0;
+    vertical-align: top;
+}
+
+section.TopBoxes #MainHeader {
+    font-family: 'Fontdiner Swanky', cursive;
+    font-size: 260%;
+    color: #0397D6;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Shadow(Strength=1, Direction=225, Color=#000000)";/*IE 8*/
+    text-shadow: 1px -1px 1px #143073, 2px -2px 1px #000000;/* FF3.5+, Opera 9+, Saf1+, Chrome, IE10 */
+    filter: progid:DXImageTransform.Microsoft.Shadow(Strength=1, Direction=135, Color=#000000); /*IE 5.5-7*/
+}
+
+section.TopBoxes #FirstPriceH1 {
+    font-family: Arial, sans-serif;
+    font-size: 270%;
+}
+/*================== < end TOP BOXES SECTION > ====================*/
+
+
+/********** start text BOXES SECTION ***********/
+section.MiddleTextBoxes {
+    text-align: center;
+}
+
+section.MiddleTextBoxes .TextBox {
+    display: inline-block;
+    width: 31%;
+    margin: 5px;
+    text-align: left;
+    vertical-align: top;
+}
+section.MiddleTextBoxes .TextBox > * {
+    padding: 0;
+    margin: 1px;
+}
+/********** end text BOXES SECTION ***********/
+
+
+/******************* < start MIDDLE BOXES SECTION > ********************/
+section.MiddleBoxes {
+    text-align: center;
+}
+
+section.MiddleBoxes .MiddleBox {
+    display: inline-block;
+    width: 32%;
+    margin: 5px;
+}
+/******************* < end MIDDLE BOXES SECTION > ********************/
+
+/*++++++++++++++++ < start BOTTOM BOXES SECTION > +++++++++++++++++*/
+section.BottomBoxes {
+    text-align: center;
+    margin-top: 5%;
+}
+section.BottomBoxes .BottomBox1 {
+    display: inline-block;
+    width: 32%;
+    margin: 5px;
+    vertical-align: top;
+}
+section.BottomBoxes .BottomBox1 .TextBox {
+    text-align: left;
+}
+section.BottomBoxes .BottomBox2 {
+    display: inline-block;
+    width: 32%;
+    margin: 5px;
+    vertical-align: top;
+}
+section.BottomBoxes .BottomBox2 img {
+    width: 100%;
+}
+section.BottomBoxes .BottomBox3 {
+    display: inline-block;
+    width: 32%;
+    margin: 5px;
+    vertical-align: top;
+    text-align: left;
+}
+section.BottomBoxes .BottomBox1 .TextBox > * , section.BottomBoxes .BottomBox3 > * {
+    padding: 0;
+    margin: 1px;
+}
+section.BottomBoxes .BottomBox3 img {
+    margin-top: 200px;
+}
+/*++++++++++++++++ < end BOTTOM BOXES SECTION > +++++++++++++++++*/
