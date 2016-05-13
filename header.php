@@ -39,7 +39,7 @@
 		<link href="http://cdnjs.cloudflare.com/ajax/libs/foundicons/3.0.0/foundation-icons.css" rel="stylesheet">
 
         <!-- ====== Main CSS style ========= -->
-		<link rel="shortcut icon" href="content/images/HP_logo_11.ico" type="image/ico" >
+		<link rel="shortcut icon" href="images/HP_logo_11.ico" type="image/ico" >
         <link rel="stylesheet" href="css/app.css" >
 
 		<!-- Creation of html5 elements for <9 IE browsers -->
